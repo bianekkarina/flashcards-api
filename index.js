@@ -12,7 +12,7 @@ app.listen(port, () => {
 })
 
 const criarBaralho = require('./baralho/criarBaralho')
-app.post('/baralho', criarBaralho)
+app.post('/baralhos', criarBaralho)
 
 const listarBaralhos = require('./baralho/listarBaralhos')
 app.get('/baralho', listarBaralhos)
